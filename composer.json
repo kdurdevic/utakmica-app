@@ -1,0 +1,22 @@
+{
+    "name": "durdevic-php/p3restapi",
+    "description": "Primjer kreiranja REST API za potrebe kolegija Programiranje 3.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Katarina Đurđević",
+            "email": "kdjurdjevic@ffos.hr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Durdevic\\": "src/Durdevic"
+        }
+    },
+    "require": {
+        "doctrine/orm": "*",
+        "symfony/serializer": "*",
+        "symfony/property-access": "*",
+        "mikecao/flight": "^1.3"
+    }
+}
